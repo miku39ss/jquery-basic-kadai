@@ -136,7 +136,7 @@ message += "都道府県を選択してください。\n";
 }else{
 $("#prefecture").css("background-color","#fafafa");
 }
-if (error == true) 
+
       
 
       if ($('#email').val() == '' ||
