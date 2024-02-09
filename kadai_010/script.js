@@ -129,17 +129,14 @@ $(function () {
 
       }
 
-      if($('#prefecture').val() == ''){
-
-        $('#prefecture').css('background-color','#f79999');
-        error = true;
-        message += '都道府県を選択してください。\n';
-
-      } else{
-
-        $('#prefecture').css('background-color','#fafafa');
-
-      }
+      if($("#prefecture").val() == false){
+$("#prefecture").css("background-color","#f79999");
+error = true;
+message += "都道府県を選択してください。\n";
+}else{
+$("#prefecture").css("background-color","#fafafa");
+}
+if (error == true) 
       
 
       if ($('#email').val() == '' ||
