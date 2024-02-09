@@ -75,7 +75,8 @@ $(function () {
       inputCheck();
     });
 
-    $('#name').blur(function () {
+    
+$('#prefecture').blur(function(){
       inputCheck();
     });
 
